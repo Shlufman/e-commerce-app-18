@@ -1,0 +1,18 @@
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.iconBike {
+  background-image: url('./bag.svg');
+}
+//
+//rgba(45, 116, 255, 1)
+.iconBike:hover,
+.iconBike:focus {
+  cursor: pointer;
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
