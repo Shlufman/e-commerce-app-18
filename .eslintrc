@@ -6,7 +6,7 @@
   "rules": {
     "quotes": [
       "warn",
-      "single"
+      "double"
     ],
     "comma-dangle": [
       "error",
