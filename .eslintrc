@@ -4,10 +4,10 @@
     "react-app/jest"
   ],
   "rules": {
-    "quotes": [
-      "warn",
-      "double"
-    ],
+    // "quotes": [
+    //   "warn",
+    //   "double"
+    // ],
     "comma-dangle": [
       "error",
       "always-multiline"

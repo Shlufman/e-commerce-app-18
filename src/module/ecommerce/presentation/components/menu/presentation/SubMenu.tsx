@@ -2,7 +2,7 @@ import React from 'react';
 
 import {TypeMenuItemDTO} from '../../../../../../general/constants/constants';
 
-import ArrowSpan from '../../../../../../general/icon/ArrowSpan';
+import ArrowSpan from '../../../../../../general/icon/arrow/presentation/ArrowSpan';
 
 
 import TCMenuItem from '../domain/model/TCMenuItem';

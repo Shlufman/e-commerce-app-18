@@ -1,6 +1,4 @@
-import React from 'react';
-
-import style from './ArrowSpan.module.scss';
+import style from "../style/ArrowSpan.module.scss";
 
 const ArrowSpan = () => {
     return (

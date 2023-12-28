@@ -1,6 +1,4 @@
-import React from 'react';
-
-import style from './UserSpan.module.scss';
+import style from "../style/UserSpan.module.scss";
 
 const UserSpan = () => {
     return (

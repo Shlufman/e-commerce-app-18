@@ -6,12 +6,18 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.iconUser {
-  background-image: url('./user.svg');
+.iconBike {
+  background-image: url('../image/bag.svg');
 }
-
-.iconUser:hover,
-.iconUser:focus {
+//
+//rgba(45, 116, 255, 1)
+.iconBike:hover,
+.iconBike:focus {
   cursor: pointer;
   filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+
 }
+
+// .iconBike:focus svg path{
+//   fill: red;
+// }

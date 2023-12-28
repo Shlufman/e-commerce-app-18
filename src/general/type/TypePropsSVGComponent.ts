@@ -1,6 +1,7 @@
 export type TPropsSVGSimple ={
     fill?: string;
     fillOpacity?:string;
+    size?:string;
 }
 type TypeSVGPathAttribute = 'clipPath' | 'clipRule'| 'color'| 'colorInterpolation'| 'colorRendering'| 'cursor'| 'display'|
     'fill'| 'fillOpacity'| 'fillRule'| 'filter'| 'mask'| 'opacity'| 'pointerEvents'| 'shapeRendering'| 'stroke'| 'strokeDasharray' |
