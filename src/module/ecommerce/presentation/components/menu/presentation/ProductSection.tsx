@@ -19,6 +19,7 @@ const ProductSection = () => {
             </div>
             <div>
                 Apparel: {apparel}.
+                Aaaaaaa
             </div>
         </>
     );
