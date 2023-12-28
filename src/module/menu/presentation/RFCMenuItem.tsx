@@ -2,7 +2,7 @@ import React, {FocusEventHandler, MouseEventHandler, useState} from 'react';
 
 import {Link} from 'react-router-dom';
 
-import {TypeMenuItem} from '../../../general/constants/constants';
+import {TypeMenuItemDTO} from '../../../general/constants/constants';
 
 import {TFHandleOnHoverAddMenu,TFHandleOnClickCleanMenu} from './MenuContainer';
 
@@ -11,7 +11,7 @@ import style from './../style/MenuContainer.module.scss'
 
 type TPropsMenuItem = {
     paths: Array<string>;
-    item: TypeMenuItem;
+    item: TypeMenuItemDTO;
     handleOnHoverMenuItem: TFHandleOnHoverAddMenu;
     handleOnClickMenuItem:TFHandleOnClickCleanMenu;
 }
