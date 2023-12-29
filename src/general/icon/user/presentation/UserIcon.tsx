@@ -1,16 +1,18 @@
 import {FC} from "react";
 
-import defaultStyle from "../../default/Icon.module.scss";
+import Icon from '../../general/Icon';
 
-import {ReactComponent as Icon} from './../image/user.svg';
+import {USER_D_PATH} from '../../general/constants';
 
-interface Props {
-    className?: string;
-  }
-  
-const UserIcon: FC<Props> = ({className})=> {
+interface Props{
+  className:string;
+}
 
-    return   <Icon className={className?className:defaultStyle.svg}/>;
+const UserIcon:FC<Props> = ({className}) => {
+  return (
+      <div className={className}>
+        <Icon className={className} dPath={USER_D_PATH}/>
+      </div>
+  );
 };
-
 export default UserIcon;

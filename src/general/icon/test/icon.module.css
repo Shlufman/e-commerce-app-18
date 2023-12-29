@@ -1,0 +1,29 @@
+/* App.module.css */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  color: #333; /* Цвет заголовка */
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  color: blue;
+}
+
+.iconContainer:hover{
+  color:red;
+}
+
+.icon {
+  fill: currentColor; /* Используем currentColor для fill */
+}
+
+.iconStroke {
+  fill: currentColor; /* Используем currentColor для fill */
+  stroke: blue; /* Задаем другое явное значение для stroke */
+}

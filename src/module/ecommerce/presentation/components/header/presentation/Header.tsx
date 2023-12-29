@@ -1,11 +1,11 @@
 import style from "../style/Header.module.scss";
 
-
 import Search from "../../../../../../general/component/search/Search";
 import MenuContainer from "../../menu/presentation/MenuContainer";
-import ArrowIcon from "../../../../../../general/icon/arrow/presentation/ArrowIcon";
+
 import BagIcon from "../../../../../../general/icon/bag/presentation/BagIcon";
 import UserIcon from "../../../../../../general/icon/user/presentation/UserIcon";
+
 
 const Header = () => {
   return (
@@ -16,8 +16,6 @@ const Header = () => {
         <MenuContainer />
       </div>
       <div className={style.customerMenu}>
-        <ArrowIcon /> 
-
         <Search />
         <BagIcon className={style.customIcon}/>
         <UserIcon className={style.customIcon}/>

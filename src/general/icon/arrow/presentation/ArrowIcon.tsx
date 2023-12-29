@@ -1,16 +1,19 @@
 import {FC} from "react";
 
-import defaultStyle from "../../default/Icon.module.scss";
+import Icon from '../../general/Icon';
 
-import {ReactComponent as Icon} from './../image/arrow.svg';
+import {ARROW_D_PATH} from '../../general/constants';
 
-interface Props {
-    className?: string;
-  }
-  
-const ArrowIcon: FC<Props> = ({className})=> {
+interface Props{
+  className:string;
+}
 
-    return   <Icon className={className?className:defaultStyle.svg}/>;
+const ArrowIcon:FC<Props> = ({className}) => {
+  return (
+      <div className={className}>
+        <Icon className={className} dPath={ARROW_D_PATH}/>
+      </div>
+  );
 };
 
 export default ArrowIcon;

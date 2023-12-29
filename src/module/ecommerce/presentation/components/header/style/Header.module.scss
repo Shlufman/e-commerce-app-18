@@ -19,23 +19,30 @@
     display: flex;
     align-items: center;
     gap: 30px;
-    color: red;
     padding-right: 25px;
 }
 
 /* App.css */
-.customIcon, .customIcon * {
-    width: 40px;
-    height: 40px;
-    fill: red;
+.customIcon{
+    width: 30px;
+    height: 30px;
+    color: rgb(247, 247, 248);
   }
   
   /* Дополнительные стили и псевдоклассы, если нужно */
-  .customIcon:hover *{
-    fill: blue;
+  .customIcon:hover {
+    color: rgba(248, 187, 56, 0.849);
   }
   
   .customIcon:focus {
     outline: 2px solid green;
   }
-  
+  .icon-container {
+    color: rgb(0, 255, 98); /* Установка цвета элемента */
+  }
+
+  .icon {
+    fill: currentColor; /* Используем currentColor для fill */
+    // stroke: currentColor; 
+    /* Или для stroke */
+  }

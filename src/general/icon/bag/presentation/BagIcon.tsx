@@ -1,16 +1,20 @@
 import {FC} from "react";
 
-import defaultStyle from "../../default/Icon.module.scss";
+import Icon from '../../general/Icon';
 
-import {ReactComponent as Icon} from './../image/bag.svg';
+import {BAD_D_PATH} from '../../general/constants';
 
-interface Props {
-    className?: string;
-  }
-  
-const BagIcon: FC<Props> = ({className})=> {
+interface Props{
+  className:string;
+}
 
-    return   <Icon className={className?className:defaultStyle.svg}/>;
+const BagIcon:FC<Props> = ({className}) => {
+  return (
+      <div className={className}>
+        <Icon className={className} dPath={BAD_D_PATH}/>
+      </div>
+  );
 };
+
 
 export default BagIcon;

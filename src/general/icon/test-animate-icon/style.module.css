@@ -1,0 +1,28 @@
+/* App.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .icon {
+    fill: currentColor;
+  }
+  
+  .iconStroke {
+    fill: currentColor;
+    stroke: blue;
+  }
+  
+  /* Анимация мигания */
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .blinking {
+    animation: blink 1s infinite;
+  }
+  
