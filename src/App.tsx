@@ -29,6 +29,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Layout />}>
+          <Route index element={<LandingPage/>}/>
           <Route path="blog" element={<BlogPage/>}/>
           <Route path="cart" element={<CartPage/>}/>
           <Route path="checkout" element={<CheckoutPage/>}/>

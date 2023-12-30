@@ -1,11 +1,13 @@
+import FCBanner from "../component/banner/presentation/FCBanner";
+
 const LandingPage: React.FC=()=>{
 
     return (
         <div>
-            Landing page.
+            <FCBanner/>
         </div>
-    )
-}
+    );
+};
 
 
 export default LandingPage;

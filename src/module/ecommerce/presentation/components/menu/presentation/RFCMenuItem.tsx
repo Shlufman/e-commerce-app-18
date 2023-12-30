@@ -46,7 +46,7 @@ const RFCMenuItem: React.FC<TPropsMenuItem> = ({item, handleOnHoverMenuItem,hand
         handleOnClickMenuItem();
     }
     return (
-        item.subMenu ? <Link  to={`${item.prefixPath}${item.path}`} className={`${style.menuItemLink} ${item.isActive?style.active:''} ${item.level===0?style.mainMenu:''}`} onBlur={handleOnBlurMenuItemL}  onMouseOver={handleOnHoverMenuItemL} onClick={handleOnClickLink}>{item.name}</Link> :
+        item.subMenu ? <Link  to={`${item.prefixPath}${item.path}`} className={`${style.menuItemLink} ${item.isActive?style.active:''} ${item.level<=0?style.mainMenu:''}`} onBlur={handleOnBlurMenuItemL}  onMouseOver={handleOnHoverMenuItemL} onClick={handleOnClickLink}>{item.name}</Link> :
             <Link to={`${item.prefixPath}${item.path}`} className={`${style.menuItemLink} ${item.isActive?style.active:''} ${item.level===0?style.mainMenu:''}`}
                   onClick={handleOnClickLink}
                   onMouseOver={handleOnHoverMenuItemL}>{item.name}</Link>

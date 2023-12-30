@@ -11,10 +11,10 @@ const Header = () => {
   return (
     <div className={style.container}>
       <div className={style.menu}>
-        {/*{sections.map(section =>*/}
-        {/*    <Link key={section.id} to={section.url}>{section.name} </Link>)}*/}
         <MenuContainer />
       </div>
+     
+
       <div className={style.customerMenu}>
         <Search />
         <BagIcon className={style.customIcon}/>

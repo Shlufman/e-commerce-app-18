@@ -1,5 +1,5 @@
 .container{
-  position: relative;
+  // position: relative;
 }
 
 .ghostBackDrop{
@@ -16,13 +16,14 @@
   display: none;
 }
 .ghostBackDropShow{
-  display: block;
+  // display: block;
 }
 
 .menuBox {
   display: flex;
+  align-items: center;
   gap: 30px;
-  position: absolute;
+  // position: absolute;
   z-index: 999;
 }
 
@@ -46,7 +47,7 @@
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
-  padding: 7px 0;
+  // padding: 7px 0;
   //transition: all 0.7s ease;
 }
 
@@ -54,7 +55,7 @@
   display: block;
   text-decoration-line: none;
   color: black;
-  padding: 7px 0;
+  // padding: 7px 0;
 }
 
 .mainMenu{
@@ -73,9 +74,10 @@
 .subMenuTitle {
   display: flex;
   justify-content: space-between;
+
   font-size: 24px;
   font-weight: 500;
   height: 55px;
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }

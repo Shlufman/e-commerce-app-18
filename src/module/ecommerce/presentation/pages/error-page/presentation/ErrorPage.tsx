@@ -1,11 +1,10 @@
-const ErrorPage: React.FC=()=>{
-
+const ErrorPage: React.FC = () => {
     return (
-        <div>
-            Error page.
-        </div>
-    )
-}
-
+    <div>
+        Error page.
+    </div>
+  );
+};
+//
 
 export default ErrorPage;

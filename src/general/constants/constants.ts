@@ -68,7 +68,7 @@ export const tempMenuItems: TypeMenuItemDTO = {
     id: 'id_menu',
     name: 'LOGO',
     prefixPath: '',
-    path: '',
+    path: '/',
     subMenu: [
         {
             id: 'id_Men',
