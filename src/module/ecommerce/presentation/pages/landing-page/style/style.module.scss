@@ -1,0 +1,29 @@
+.iconBag{
+    color: red;
+    fill: yellow;
+    stroke: green;
+    width: 24px;
+    height: 24px;
+    outline: 1px solid transparent;
+  }
+  
+  .iconBag:hover {
+    outline-color: rgba(33, 5, 134 ,0.1);
+    fill:aqua;
+    color: blue;
+    stroke: black;
+  }
+
+
+  .iconBag:focus {
+    fill:rgb(255, 153, 0);
+    color: rgb(0, 255, 115);
+    stroke: rgb(252, 5, 67);
+  }
+
+  .iconBag:active {
+    outline-color: rgb(33, 5, 134);
+    fill:rgb(68, 8, 163);
+    color: rgb(255, 196, 0);
+    stroke: rgb(209, 30, 30);
+  }
