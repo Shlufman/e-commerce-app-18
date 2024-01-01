@@ -1,9 +1,12 @@
 import D_PATHS from './constants';
 
 const IconWrapper = ({ children,className }) => (
+  <div className={className} >
   <svg className={className} viewBox="0 0 24 24">
     {children}
   </svg>
+  </div>
+
 );
 
 export const TemplateIcon = ({className,name}) => (

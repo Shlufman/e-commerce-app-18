@@ -1,4 +1,5 @@
 .iconBag{
+  display: inline;
     color: red;
     fill: yellow;
     stroke: green;
@@ -14,6 +15,12 @@
     stroke: black;
   }
 
+  .iconBag:active {
+    outline-color: rgb(33, 5, 134);
+    fill:rgb(68, 8, 163);
+    color: rgb(255, 196, 0);
+    stroke: rgb(209, 30, 30);
+  }
 
   .iconBag:focus {
     fill:rgb(255, 153, 0);
@@ -21,9 +28,45 @@
     stroke: rgb(252, 5, 67);
   }
 
-  .iconBag:active {
-    outline-color: rgb(33, 5, 134);
-    fill:rgb(68, 8, 163);
-    color: rgb(255, 196, 0);
-    stroke: rgb(209, 30, 30);
+
+
+
+  .iconBtn{
+    color: red;
+    fill: yellow;
+    stroke: green;
+    width: 20px;
+    height: 20px;
+    outline: 1px solid transparent;
+  }
+
+  // .iconBtn:hover {
+  //   // outline-color: rgba(33, 5, 134 ,0.1);
+  //   fill:aqua;
+  //   color: blue;
+  //   stroke: black;
+  // }
+
+  // .iconBtn:active {
+  //   // outline-color: rgb(33, 5, 134);
+  //   fill:rgb(68, 8, 163);
+  //   color: rgb(255, 196, 0);
+  //   stroke: rgb(209, 30, 30);
+  // }
+
+  .btnWithIcon{
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: #FA4A69;
+    outline: 1px solid rgba(33, 5, 134 ,0.3);
+  }
+
+  .btnWithIcon:hover{
+    background: #d43a56;
+    outline-color: rgba(33, 5, 134 ,0.5);
+  }
+  .btnWithIcon:active{
+    background: #a0132d;
+    outline-color: rgba(33, 5, 134 ,1);
   }
