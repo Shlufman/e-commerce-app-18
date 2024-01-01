@@ -2,7 +2,7 @@ import React from 'react';
 
 import {TypeMenuItemDTO} from '../../../../../../general/constants/constants';
 
-import ArrowIcon from '../../../../../../general/icon/arrow/presentation/ArrowIcon';
+// import ArrowIcon from '../../../../../../general/icon/arrow/presentation/ArrowIcon';
 
 
 import TCMenuItem from '../domain/model/TCMenuItem';
@@ -31,7 +31,7 @@ const SubMenu: React.FC<TPropsSubMenu> = ({subMenuItem,handleOnHoverAddMenu,hand
                 <div>
                     {subMenuItem?.name}
                 </div>
-                <ArrowIcon className=''/>
+                {/* <ArrowIcon className=''/> */}
             </div>
 
             <div>

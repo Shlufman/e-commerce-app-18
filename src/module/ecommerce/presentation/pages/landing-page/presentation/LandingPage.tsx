@@ -1,7 +1,5 @@
-import Icon from "../../../../../../general/icon/icon/Icon";
+import Icon, { IconBtn, IconWrapperForBtn } from "../../../../../../general/icon/ui/Icon";
 import FCBanner from "../component/banner/presentation/FCBanner";
-
-import IconBag from "../../../../../../general/icon/icon/IconBag";
 
 import styles from "./../style/style.module.scss";
 
@@ -9,8 +7,7 @@ const LandingPage: React.FC = () => {
   return (
     <>
       <div>
-        <FCBanner />
-        <IconBag className={styles.iconBag} />
+        {/* <FCBanner /> */}
         <Icon name={"bag"} className={styles.iconBag} />
         <Icon name={"bagCenter"} className={styles.iconBag} />
         <Icon name={"camera"} className={styles.iconBag} />
@@ -62,9 +59,10 @@ const LandingPage: React.FC = () => {
         <Icon name={"apple"} className={styles.iconBag} />
         <Icon name={"basket"} className={styles.iconBag} />
         <Icon name={"basket"} className={styles.iconBag} />
-        <div className={styles.btnWithIcon}>
-          <Icon name={"heartCenter"} className={styles.iconBtn} />
-        </div>
+      </div>
+      <div>
+        <IconWrapperForBtn name={"heartFull"} className={styles.btnWithIconHeart}/>
+        <IconWrapperForBtn name={"bag"} className={styles.btnWithIconBag}/>
       </div>
     </>
   );

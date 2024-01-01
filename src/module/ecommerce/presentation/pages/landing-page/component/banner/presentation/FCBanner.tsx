@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import ArrowIcon from "../../../../../../../../general/icon/arrow/presentation/ArrowIcon";
+// import ArrowIcon from "../../../../../../../../general/icon/arrow/presentation/ArrowIcon";
 import ArrowLeft from "../../arrow-left/ArrowLeft";
 import ArrowRight from "../../arrow-right/ArrowRight";
 import ImageComponent from "../../ImageComponent/ImageComponent";
@@ -80,7 +80,7 @@ const FCBanner: React.FC = () => {
       <ArrowRight className={styles.rightArrow} />
       <button className={styles.buttonBuyNow}>Buy now</button>
       <button className={styles.buttonExplore}>
-        Explore <ArrowIcon className={styles.arrowIcon} />
+        {/* Explore <ArrowIcon className={styles.arrowIcon} /> */}
       </button>
       <div className={styles.backgroundText} style={{ fontSize: fontSize, opacity:opacityImage }}>
         {bannerData.length>0&&bannerData[index].backGroundText.toUpperCase()}

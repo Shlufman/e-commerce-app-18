@@ -1,0 +1,28 @@
+.menuItemLink {
+
+  display: block;
+  text-decoration-line: none;
+  color: black;
+  // padding: 7px 0;
+  outline:none;
+}
+
+.menuItemLink:focus{
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; 
+  letter-spacing: -0.5px; 
+  color:#FFF; 
+  outline:none;
+}
+
+.mainMenu{
+  color: rgba(255, 255, 255, 0.50);
+}
+
+.active {
+  color: #2D74FF;
+}

@@ -54,19 +54,50 @@
   //   stroke: rgb(209, 30, 30);
   // }
 
-  .btnWithIcon{
-    display: inline-block;
-    padding: 10px 10px;
+  .btnWithIconHeart{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
     border-radius: 10px;
-    background: #FA4A69;
-    outline: 1px solid rgba(33, 5, 134 ,0.3);
+    background: white;
+    border: none;
+
+    fill: #FA4A69;
   }
 
-  .btnWithIcon:hover{
-    background: #d43a56;
-    outline-color: rgba(33, 5, 134 ,0.5);
+  .btnWithIconHeart:hover{    
+    background: #FB6E87;
+    fill: #FB6E87;
+    stroke: white;
+    stroke-width: 2px;
   }
-  .btnWithIcon:active{
-    background: #a0132d;
-    outline-color: rgba(33, 5, 134 ,1);
+
+  .btnWithIconHeart:active{
+    background: #FA4A69;
+
+    fill: white;
+  }
+
+
+  .btnWithIconBag{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+    border: none;
+
+    fill: #2D74FF;
+  }
+
+  .btnWithIconBag:hover{    
+    background: #568FFF;
+
+    fill: white;
+  }
+
+  .btnWithIconBag:active{
+    background: #2D74FF;
+
+    fill: white;
   }
