@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {TPropsSVGSimple} from '../type/TypePropsSVGComponent';
+import {TPropsSVGSimple} from '../../type/TypePropsSVGComponent';
 
 const Search :React.FC<TPropsSVGSimple>= ({fill ='white',fillOpacity=1.0}) => {
     return (

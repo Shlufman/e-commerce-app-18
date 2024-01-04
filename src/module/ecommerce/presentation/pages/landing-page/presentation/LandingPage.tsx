@@ -1,9 +1,16 @@
-import Icon, { IconBtn, IconWrapperForBtn } from "../../../../../../general/icon/ui/Icon";
+
+import Icon, {
+  IconBtn,
+  IconWrapperForBtn,
+} from "../../../../../../general/component/icon/ui/Icon";
+import { Rating } from "../../../../../../general/component/rating/ui/Rating";
+import { Header } from "../../../components/menu2/ui/Header";
 import FCBanner from "../component/banner/presentation/FCBanner";
 
 import styles from "./../style/style.module.scss";
 
-const LandingPage: React.FC = () => {
+const LandingPage = () => {
+
   return (
     <>
       <div>
@@ -61,9 +68,24 @@ const LandingPage: React.FC = () => {
         <Icon name={"basket"} className={styles.iconBag} />
       </div>
       <div>
-        <IconWrapperForBtn name={"heartFull"} className={styles.btnWithIconHeart}/>
-        <IconWrapperForBtn name={"bag"} className={styles.btnWithIconBag}/>
+        <Icon name={"star"} className={styles.iconStar} />
+        <div>
+         <Rating rating={0.5}/>
+         <Rating rating={1}/>
+         <Rating rating={2}/>
+         <Rating rating={3}/>
+         <Rating rating={4.5}/>
+         <Rating rating={5}/>
+        </div>
       </div>
+      <div>
+        <IconWrapperForBtn
+          name={"heartFull"}
+          className={styles.btnWithIconHeart}
+        />
+        <IconWrapperForBtn name={"bag"} className={styles.btnWithIconBag} />
+      </div>
+      <Header/>
     </>
   );
 };
