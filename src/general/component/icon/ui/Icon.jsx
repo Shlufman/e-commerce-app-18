@@ -27,7 +27,7 @@ export const IconWrapperForBtn = ({ name, className}) => {
   );
 };
 
-export const TemplateIcon = ({ className, name }) => (
+export const TemplateIcon = ({name, className }) => (
   <IconWrapper className={className}>
     <path d={D_PATHS[name]} fill="inherit" stroke="inherit" />
   </IconWrapper>
