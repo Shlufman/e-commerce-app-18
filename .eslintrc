@@ -1,4 +1,11 @@
 {
+  "settings": {
+    "import/resolver": {
+      "typescript": {
+        "project": "tsconfig.json"
+      }
+    }
+  },
   "extends": [
     "react-app",
     "react-app/jest"
@@ -20,14 +27,14 @@
       "error",
       {
         "groups": [
-          "builtin",
-          "external",
-          "internal",
-          "parent",
-          "sibling",
-          "index",
-          "object",
-          "type"
+          // "builtin",
+          // "external",
+          // "internal",
+          // "parent",
+          // "sibling",
+          // "index",
+          // "object",
+          // "type"
         ],
         "newlines-between": "always-and-inside-groups"
       }

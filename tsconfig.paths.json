@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+          "@components": ["ui/components"],
+          "@components/*": ["ui/components/*"],
+          "@constants/*": ["constants/*"],
+          "@pages": ["ui/pages"],
+          "@pages/*": ["ui/pages/*"],
+          "@services": ["api/services/api"],
+          "@services/*": ["api/services/*"],
+          "@types/*": ["domain/type/*"],
+        },
+    }
+}

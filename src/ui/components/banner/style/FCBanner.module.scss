@@ -1,0 +1,161 @@
+@font-face {
+  font-family: Inter;
+  src: url("../../../../style/fonts/Inter/Inter-VariableFont_slnt.wght.ttf");
+}
+.container {
+position: absolute;
+left: 0;
+top: 80px;
+  width: 100hv;
+  height: 570px;
+  background: #17181f;
+  position: relative;
+}
+.title {
+  color: rgba(238, 237, 240, 0.85);
+  text-align: center;
+
+  /* H1 */
+  font-family: Inter;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 80px; /* 111.111% */
+  letter-spacing: -4.5px;
+}
+
+.text {
+  color: #eeedf0;
+
+  text-align: center;
+  text-shadow: 0px 5px 12px rgba(203, 105, 193, 0.25);
+  /* Lead */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
+  letter-spacing: -1px;
+}
+
+.backgroundText {
+  color: rgba(238, 237, 240, 0.1);
+//   font-size: 570px;
+  font-family: Inter;
+  font-weight: 500;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+}
+
+.ellipse {
+  width: 720px;
+  height: 400px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%) rotate(-29.745deg);
+  background: radial-gradient(
+    rgba(203, 105, 193, 0.15) 40%,
+    rgba(203, 105, 193, 0) 70%
+  );
+  // background-image: ;
+}
+
+.bannerImage {
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  top: 85%;
+  left: 55%;
+  z-index: 4;
+  overflow: visible;
+
+  transform: translate(-50%, -50%)  rotate(-29.745deg); //
+//   background: url("./../images/nike_cross.png") center no-repeat;
+}
+
+.image{
+    opacity: 0;
+    // animation: fadeInOut 1s ease-in-out forwards;
+}
+
+// @keyframes fadeInOut {
+//     0% {
+//       opacity: 0;
+//     }
+//     100% {
+//       opacity: 1;
+//     }
+//   }
+
+.leftArrow {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 50%;
+  left: 91px;
+  z-index: 4;
+  transform: translate(0%, -50%);
+  color: rgb(247, 247, 248);
+}
+
+.rightArrow {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 50%;
+  right: 91px;
+  z-index: 4;
+  transform: translate(0%, -50%);
+  color: rgb(247, 247, 248);
+}
+
+.leftArrow:hover {
+  color: rgba(248, 187, 56, 0.849);
+}
+
+.rightArrow:hover {
+  color: rgba(248, 187, 56, 0.849);
+}
+
+.buttonBuyNow {
+  padding: 11px 12px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+
+  position: absolute;
+  bottom: 48px;
+  left: 163px;
+  z-index: 5;
+  border-radius: 10px;
+background: #2D74FF;
+}
+
+.buttonExplore {
+    padding: 11px 12px;
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+  
+    position: absolute;
+    bottom: 48px;
+    left: 265px;
+    z-index: 5;
+    border-radius: 10px;
+  background: #17181f;
+  }
+.arrowIcon{
+    display: inline;
+    width: 20px;
+    height: 20px;
+    color: rgb(247, 247, 248);
+}
