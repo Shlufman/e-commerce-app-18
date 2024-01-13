@@ -2,13 +2,13 @@
     "compilerOptions": {
         "baseUrl": "./src",
         "paths": {
-          "@components": ["ui/components"],
-          "@components/*": ["ui/components/*"],
+          "@components": ["components"],
+          "@components/*": ["components/*"],
           "@constants/*": ["constants/*"],
-          "@pages": ["ui/pages"],
-          "@pages/*": ["ui/pages/*"],
-          "@services": ["api/services/api"],
-          "@services/*": ["api/services/*"],
+          "@pages": ["pages"],
+          "@pages/*": ["pages/*"],
+          "@api": ["api"],
+          "@api/*": ["api/*"],
           "@types/*": ["domain/type/*"],
         },
     }

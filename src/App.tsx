@@ -4,53 +4,13 @@ import "./App.css";
 
 import { Route, Routes } from "react-router-dom";
 
-import Main from "./ui/components/main/Main";
-
 import {Layout} from "@components";
 import { CartPage, BlogPage, CheckoutPage, ErrorPage, RegisterPage, SinglePostPage,
   LoginPage, LandingPage, ProductPage, ProductsPage, ProfilePage, RestorePage, TextPage,
-} from "@pages";
-
-import TCMenuItem from "@components/menu/domain/model/TCMenuItem";
-import { MenuFactory } from "@components/menu/utils/MenuFactory";
-
-
-import {
-  // menuItems,
-  // tempMenuItems,
-  TypeMenuItemDTO, getMenuJSONData,
-} from "./api";
-
+} from "pages";
 
 
 function App() {
-  const [subMenuItems, setSubMenuItems] = useState<Array<TCMenuItem>>([]);
-
-
-  useEffect(() => {
-    // const mapperToArray = new MenuArrayCreate(menuItems);
-    // console.log(mapperToArray.getArray());
-    // const ar = mapperToArray.getArray();
-
-    // const mapperToObject = new MenuObjectCreate(ar);
-    // console.log(mapperToObject.getObject());
-
-    getMenuJSONData().then(data => {
-      const creater = new MenuFactory(data);
-      // let res: TypeMenuItemDTO = {...menuItems};
-      let res = creater.getMenuItem();
-      // let res= mapperToObject.getObject();
-      console.log("res", res);
-
-      setSubMenuItems((prev) => {
-        const array = [...prev];
-        array.push(res!);
-        console.log("array", array);
-        return array;
-      });
-    })
-
-  }, []);
 
   return (
     <div className="App">
@@ -73,7 +33,6 @@ function App() {
         </Route>
       </Routes>
 
-      <Main />
     </div>
   );
 }
